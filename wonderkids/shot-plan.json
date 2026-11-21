@@ -1,5 +1,5 @@
 {
- "duration": 47.533,
+ "duration": 53.033,
  "fps": 30,
  "events": [
   {
@@ -12,373 +12,381 @@
   {
    "id": "H2",
    "trigger": "future",
-   "t_kw": 1.54,
-   "t_start": 1.433,
+   "t_kw": 1.74,
+   "t_start": 1.633,
    "desc": "Three gold stars POP_HEAD L\u2192C\u2192R"
   },
   {
    "id": "H3",
    "trigger": "but",
-   "t_kw": 2.44,
-   "t_start": 2.4,
+   "t_kw": 2.98,
+   "t_start": 2.933,
    "desc": "White rising arrow DRAW"
   },
   {
    "id": "H4",
    "trigger": "different",
-   "t_kw": 3.86,
-   "t_start": 3.8,
+   "t_kw": 4.98,
+   "t_start": 4.933,
    "desc": "Arrow MORPH into a dive; stars FALL on 'turn'"
   },
   {
    "id": "H4b",
    "trigger": "turn",
-   "t_kw": 4.26,
-   "t_start": 4.267,
+   "t_kw": 5.44,
+   "t_start": 5.433,
    "desc": "Stars FALL (stagger)"
   },
   {
    "id": "A1",
    "trigger": "at",
-   "t_kw": 4.94,
-   "t_start": 4.933,
+   "t_kw": 6.42,
+   "t_start": 6.4,
    "desc": "Vertical sheet push \u2192 royal; captions HOOK\u2192BODY"
   },
   {
    "id": "A2",
    "trigger": "at",
-   "t_kw": 4.94,
-   "t_start": 5.0,
+   "t_kw": 6.42,
+   "t_start": 6.467,
    "desc": "Rank badge #3 POP_UI"
   },
   {
    "id": "A3",
    "trigger": "17",
-   "t_kw": 5.14,
-   "t_start": 5.133,
+   "t_kw": 6.6,
+   "t_start": 6.6,
    "desc": "age 17 tag POP_UI"
   },
   {
    "id": "A4",
    "trigger": "federico",
-   "t_kw": 6.18,
-   "t_start": 6.067,
+   "t_kw": 7.4,
+   "t_start": 7.3,
    "desc": "Macheda figure RISE"
   },
   {
    "id": "A5",
    "trigger": "macheda",
-   "t_kw": 6.5,
-   "t_start": 6.5,
+   "t_kw": 7.62,
+   "t_start": 7.633,
    "desc": "Name block DROP_STACK"
   },
   {
    "id": "A6",
    "trigger": "hero",
-   "t_kw": 8.22,
-   "t_start": 8.067,
+   "t_kw": 9.52,
+   "t_start": 9.367,
    "desc": "Gold star POP_HEAD + twinkles"
   },
   {
    "id": "A7",
    "trigger": "scoring",
-   "t_kw": 9.1,
-   "t_start": 9.1,
+   "t_kw": 10.62,
+   "t_start": 10.633,
    "desc": "HARD CUT \u2192 grass pitch; shooting pose"
   },
   {
    "id": "A8",
    "trigger": "scoring",
-   "t_kw": 9.1,
-   "t_start": 9.4,
+   "t_kw": 10.62,
+   "t_start": 10.933,
    "desc": "Ball into the top corner; net bulge"
   },
   {
    "id": "A9",
    "trigger": "winner",
-   "t_kw": 9.86,
-   "t_start": 9.767,
+   "t_kw": 11.44,
+   "t_start": 11.333,
    "desc": "Scoreboard POP_UI + DEFOCUS_BG"
   },
   {
    "id": "A10",
    "trigger": "but",
-   "t_kw": 11.68,
-   "t_start": 11.667,
+   "t_kw": 13.34,
+   "t_start": 13.333,
    "desc": "HARD CUT \u2192 charcoal; figure + star"
   },
   {
    "id": "A10a",
    "trigger": "unforgettable",
-   "t_kw": 12.18,
-   "t_start": 12.033,
+   "t_kw": 13.94,
+   "t_start": 13.8,
    "desc": "Flashback thought BUBBLE (net bulge)"
   },
   {
    "id": "A10b",
    "trigger": "struggled",
-   "t_kw": 13.7,
-   "t_start": 13.7,
+   "t_kw": 15.62,
+   "t_start": 15.633,
    "desc": "Bubble shrinks to a dot"
   },
   {
    "id": "A11",
    "trigger": "live",
-   "t_kw": 14.28,
-   "t_start": 14.267,
+   "t_kw": 16.16,
+   "t_start": 16.133,
    "desc": "Star wobbles, then sinks/dims"
   },
   {
    "id": "A12",
    "trigger": "never",
-   "t_kw": 15.18,
-   "t_start": 15.367,
+   "t_kw": 17.26,
+   "t_start": 17.433,
    "desc": "Red X stroke 1 over the star"
   },
   {
    "id": "A12b",
    "trigger": "superstar",
-   "t_kw": 15.94,
-   "t_start": 15.833,
+   "t_kw": 17.92,
+   "t_start": 17.8,
    "desc": "Red X stroke 2"
   },
   {
    "id": "A13",
    "trigger": "everyone",
-   "t_kw": 16.38,
-   "t_start": 16.367,
+   "t_kw": 18.24,
+   "t_start": 18.233,
    "desc": "Cracked star FALLs; figure slumps"
   },
   {
    "id": "B1",
    "trigger": "expected",
-   "t_kw": 16.92,
-   "t_start": 17.467,
+   "t_kw": 18.58,
+   "t_start": 19.133,
    "desc": "LIST SWAP: Macheda SLIDE_OUT"
   },
   {
    "id": "B2",
    "trigger": "everton",
-   "t_kw": 17.98,
-   "t_start": 17.833,
+   "t_kw": 19.8,
+   "t_start": 19.667,
    "desc": "Empty beat: bg \u2192 sky; badge #3\u2192#2"
   },
   {
    "id": "B3",
    "trigger": "everton",
-   "t_kw": 17.98,
-   "t_start": 17.967,
+   "t_kw": 19.8,
+   "t_start": 19.8,
    "desc": "Rodwell SLIDE_IN"
   },
   {
    "id": "B4",
    "trigger": "believed",
-   "t_kw": 18.52,
-   "t_start": 18.433,
+   "t_kw": 20.3,
+   "t_start": 20.2,
    "desc": "Thought BUBBLE: white kit + star"
   },
   {
    "id": "B3b",
    "trigger": "jack",
-   "t_kw": 18.88,
-   "t_start": 18.867,
+   "t_kw": 20.66,
+   "t_start": 20.633,
    "desc": "Name block DROP_STACK"
   },
   {
    "id": "B4b",
    "trigger": "england's",
-   "t_kw": 20.18,
-   "t_start": 20.133,
+   "t_kw": 21.98,
+   "t_start": 21.933,
    "desc": "Bubble figure kit POSE_SWAP blue \u2192 plain white"
   },
   {
    "id": "B5",
    "trigger": "great",
-   "t_kw": 21.12,
-   "t_start": 21.133,
+   "t_kw": 22.62,
+   "t_start": 22.633,
    "desc": "Star in bubble twinkle burst"
   },
   {
    "id": "B6",
    "trigger": "manchester",
-   "t_kw": 22.34,
-   "t_start": 22.233,
+   "t_kw": 23.86,
+   "t_start": 23.767,
    "desc": "WHIP PUSH \u2192 navy, sky-blue kit"
   },
   {
    "id": "B7",
    "trigger": "signed",
-   "t_kw": 22.78,
-   "t_start": 22.767,
+   "t_kw": 24.3,
+   "t_start": 24.3,
    "desc": "Name context line \u2192 EVERTON \u2192 MAN CITY \u00b7 2012"
   },
   {
    "id": "B7b",
    "trigger": "millions",
-   "t_kw": 23.48,
-   "t_start": 23.433,
+   "t_kw": 25.02,
+   "t_start": 24.967,
    "desc": "\u00a3 MILLIONS tag POP_UI"
   },
   {
    "id": "B8",
    "trigger": "injuries",
-   "t_kw": 24.1,
-   "t_start": 24.067,
+   "t_kw": 26.44,
+   "t_start": 26.4,
    "desc": "Limp pose + red cross POP; ice pack FALL"
   },
   {
    "id": "B9",
    "trigger": "inconsistent",
-   "t_kw": 24.8,
-   "t_start": 24.733,
+   "t_kw": 27.4,
+   "t_start": 27.333,
    "desc": "Line chart axis + zig-zag DRAW"
   },
   {
    "id": "B10",
    "trigger": "derailed",
-   "t_kw": 26.06,
-   "t_start": 26.0,
+   "t_kw": 28.54,
+   "t_start": 28.467,
    "desc": "Line snaps & falls; small red X"
   },
   {
    "id": "B11",
    "trigger": "he",
-   "t_kw": 27.52,
-   "t_start": 27.533,
+   "t_kw": 29.4,
+   "t_start": 29.4,
    "desc": "HARD CUT \u2192 pink; figure + star"
   },
   {
    "id": "B11b",
    "trigger": "brightest",
-   "t_kw": 28.72,
-   "t_start": 28.667,
+   "t_kw": 31.42,
+   "t_start": 31.367,
    "desc": "Star SLAM + glow"
   },
   {
    "id": "B12",
    "trigger": "forgotten",
-   "t_kw": 30.14,
-   "t_start": 30.1,
+   "t_kw": 32.84,
+   "t_start": 32.8,
    "desc": "Spotlight out: bg \u2192 charcoal, star FALL, name dims 30%, figure greys"
   },
   {
    "id": "C1",
    "trigger": "name",
-   "t_kw": 30.46,
-   "t_start": 30.9,
+   "t_kw": 33.12,
+   "t_start": 33.567,
    "desc": "LIST SWAP: Rodwell SLIDE_OUT; bg \u2192 magenta; badge #2\u2192#1"
   },
   {
    "id": "C2",
    "trigger": "ferguson",
-   "t_kw": 31.74,
-   "t_start": 31.433,
+   "t_kw": 34.62,
+   "t_start": 34.3,
    "desc": "Manager figure RISE + label"
   },
   {
    "id": "C3",
    "trigger": "called",
-   "t_kw": 32.58,
-   "t_start": 32.433,
+   "t_kw": 35.54,
+   "t_start": 35.4,
    "desc": "Speech BUBBLE: \"ONE OF THE MOST GIFTED I'VE SEEN\""
   },
   {
    "id": "C4",
    "trigger": "ravel",
-   "t_kw": 33.06,
-   "t_start": 32.9,
+   "t_kw": 36.02,
+   "t_start": 35.867,
    "desc": "Morrison SLIDE_IN"
   },
   {
    "id": "C4b",
    "trigger": "morrison",
-   "t_kw": 33.4,
-   "t_start": 33.4,
+   "t_kw": 36.4,
+   "t_start": 36.4,
    "desc": "Name block DROP_STACK"
   },
   {
    "id": "C5",
    "trigger": "gifted",
-   "t_kw": 34.78,
-   "t_start": 34.7,
+   "t_kw": 38.2,
+   "t_start": 38.133,
    "desc": "Gold star SLAM + radial burst"
+  },
+  {
+   "id": "C5b",
+   "trigger": "seen",
+   "t_kw": 39.5,
+   "t_start": 39.467,
+   "desc": "Manager POSE_SWAP arms folded \u2192 thumbs-up"
   },
   {
    "id": "C6",
    "trigger": "he",
-   "t_kw": 36.54,
-   "t_start": 36.533,
+   "t_kw": 40.84,
+   "t_start": 40.833,
    "desc": "HARD CUT \u2192 grass; talent gauge + POTENTIAL line DRAW"
   },
   {
    "id": "C7",
    "trigger": "unbelievable",
-   "t_kw": 36.7,
-   "t_start": 36.7,
+   "t_kw": 41.18,
+   "t_start": 41.167,
    "desc": "Talent bar GROW to 85%"
   },
   {
    "id": "C8",
    "trigger": "off-field",
-   "t_kw": 37.96,
-   "t_start": 37.9,
+   "t_kw": 42.92,
+   "t_start": 42.867,
    "desc": "Storm cloud POP; warning icons on 'problems'"
   },
   {
    "id": "C9",
    "trigger": "inconsistency",
-   "t_kw": 39.18,
-   "t_start": 39.167,
+   "t_kw": 44.02,
+   "t_start": 44.0,
    "desc": "Bar flickers 85\u219255\u219275\u219240"
   },
   {
    "id": "C10",
    "trigger": "stopped",
-   "t_kw": 39.68,
-   "t_start": 39.667,
+   "t_kw": 44.6,
+   "t_start": 44.6,
    "desc": "Red barrier SLAM; bar hits it"
   },
   {
    "id": "C10b",
    "trigger": "potential",
-   "t_kw": 41.34,
-   "t_start": 41.333,
+   "t_kw": 46.42,
+   "t_start": 46.4,
    "desc": "Red X over POTENTIAL; star cracks & falls"
   },
   {
    "id": "D1",
    "trigger": "three",
-   "t_kw": 42.02,
-   "t_start": 41.967,
+   "t_kw": 47.36,
+   "t_start": 47.3,
    "desc": "Soft top-down wipe \u2192 teal hook stage callback, ranks 3\u00b72\u00b71"
   },
   {
    "id": "D2",
    "trigger": "unbelievable",
-   "t_kw": 42.16,
-   "t_start": 42.167,
+   "t_kw": 47.52,
+   "t_start": 47.533,
    "desc": "Three stars POP again"
   },
   {
    "id": "D2b",
    "trigger": "careers",
-   "t_kw": 43.9,
-   "t_start": 43.8,
+   "t_kw": 49.0,
+   "t_start": 48.9,
    "desc": "Hook arrow callback: DRAW rising; MORPH into dive on 'never'"
   },
   {
    "id": "D3",
    "trigger": "never",
-   "t_kw": 44.64,
-   "t_start": 44.633,
+   "t_kw": 49.66,
+   "t_start": 49.667,
    "desc": "Stars crack; fall on 'reached'; slump on 'potential'"
   },
   {
    "id": "D4",
    "trigger": "who",
-   "t_kw": 45.9,
-   "t_start": 45.867,
+   "t_kw": 51.28,
+   "t_start": 51.233,
    "desc": "Question marks POP; badges pulse"
   }
- ]
+ ],
+ "voice": "assets/voice/own/narration_own_1.2x.wav (creator recording, edited, 1.2x tempo)"
 }
