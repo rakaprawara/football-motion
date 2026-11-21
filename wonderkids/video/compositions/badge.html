@@ -1,0 +1,49 @@
+<template>
+  <style>
+#root{position:absolute;inset:0;overflow:hidden;font-family:'Archivo Black',sans-serif;}
+.abs{position:absolute;}
+.full{position:absolute;left:0;top:0;width:1080px;height:1920px;}
+.fig{position:absolute;}
+.hid{opacity:0;}
+.name{position:absolute;left:120px;top:412px;width:640px;color:#fff;}
+.name .ctx{position:absolute;left:0;font-family:Inter,sans-serif;font-weight:700;font-size:30px;letter-spacing:.12em;white-space:nowrap;background:rgba(0,0,0,.42);padding:3px 12px;border-radius:6px;}
+.name .ln{position:absolute;left:0;font-size:84px;line-height:1;white-space:nowrap;text-shadow:0 5px 0 rgba(0,0,0,.18);}
+.tag{position:absolute;}
+.tag span{display:inline-block;transform:rotate(-8.7deg);font-size:46px;padding:4px 18px 8px;white-space:nowrap;}
+.tag.dark span{background:#000;color:#fff;}
+.tag.light span{background:#fff;color:#000;}
+.grainbg{background-image:url(assets/grain.png);background-size:540px 960px;opacity:.06;mix-blend-mode:multiply;}
+</style>
+  <div id="root" data-composition-id="badge" data-width="1080" data-height="1920" data-duration="40.833">
+<div id="bd-box" class="tag dark hid" data-layout-allow-overflow style="left:120px;top:302px"><span style="font-size:72px;padding:2px 24px 8px"><b id="bd-3">#3</b><b id="bd-2" style="display:none">#2</b><b id="bd-1" style="display:none">#1</b></span></div>
+  </div>
+  <script>
+    const tl = gsap.timeline({ paused: true });
+
+const TW=1/15;
+function E(name,d){const b=gsap.parseEase(name);const n=Math.max(1,Math.round(d/TW));return p=>b(Math.min(1,Math.floor(p*n+1e-6)/n));}
+const IR={immediateRender:false};
+function show(s,t){tl.set(s,{opacity:1},t);}
+function hide(s,t){tl.set(s,{opacity:0},t);}
+function pop(s,t,d=.25,f=.7){show(s,t);tl.fromTo(s,{scale:f},{scale:1,duration:d,ease:E('expo.out',d),...IR},t);}
+function popH(s,t,d=.45){show(s,t);tl.fromTo(s,{scale:0},{scale:1,duration:d,ease:E('power2.inOut',d),...IR},t);}
+function slam(s,t,d=.33){show(s,t);tl.fromTo(s,{scale:1.12},{scale:1,duration:d,ease:E('expo.out',d),...IR},t);}
+function rise(s,t,d=.35,dy=1000){show(s,t);tl.fromTo(s,{y:dy},{y:0,duration:d,ease:E('power3.out',d),...IR},t);}
+function slideIn(s,t,d=.35,dx=1100){show(s,t);tl.fromTo(s,{x:dx},{x:0,duration:d,ease:E('power3.out',d),...IR},t);}
+function slideOut(s,t,d=.25,dx=-1250){tl.fromTo(s,{x:0},{x:dx,duration:d,ease:E('power2.in',d),...IR},t);}
+function drop(s,t,d=.45,dy=-560){show(s,t);tl.fromTo(s,{y:dy},{y:0,duration:d,ease:E('expo.out',d),...IR},t);}
+function fall(s,t,d=.5,dy=1500,rot=14){tl.fromTo(s,{y:0,rotation:0},{y:dy,rotation:rot,duration:d,ease:E('power2.in',d),...IR},t);}
+function draw(s,t,d=.22){show(s,t);tl.fromTo(s,{strokeDashoffset:1},{strokeDashoffset:0,duration:d,ease:E('power2.in',d),...IR},t);}
+function pose(fig,name,t){tl.set(fig+' .pose',{opacity:0},t);tl.set(fig+' .pose-'+name,{opacity:1},t);}
+function twinkle(sel,t0,t1,seed){let r=seed;const rnd=()=>{r=(r*9301+49297)%233280;return r/233280;};
+  document.querySelectorAll(sel).forEach((el,i)=>{let t=t0+rnd()*0.4;while(t<t1-0.4){const d=0.3+rnd()*0.2;
+    tl.fromTo(el,{opacity:0,scale:.4},{opacity:1,scale:1,duration:d/2,ease:E('power1.out',d/2),...IR},t);
+    tl.to(el,{opacity:0,scale:.4,duration:d/2,ease:E('power1.in',d/2)},t+d/2);t+=d+0.3+rnd()*0.9;}});}
+function jitter(s,t0,t1){let k=0;for(let t=t0;t<t1;t+=TW*2){tl.set(s,{x:[1,-1,2,0,-2,1][k%6],y:[0,1,-1,2,0,-1][k%6]},t);k++;}}
+
+pop('#bd-box',0);
+tl.set('#bd-3',{display:'none'},13.2);tl.set('#bd-2',{display:'inline'},13.2);
+tl.set('#bd-2',{display:'none'},27.5);tl.set('#bd-1',{display:'inline'},27.5);
+    window.__timelines["badge"] = tl;
+  </script>
+</template>

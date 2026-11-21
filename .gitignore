@@ -1,2 +1,6 @@
 # Personal voice recordings stay out of git until approved
 wonderkids/assets/voice/own/
+wonderkids/video/assets/voice/
+wonderkids/video/renders/
+wonderkids/video/.hyperframes/
+wonderkids/video/node_modules/

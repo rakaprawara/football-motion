@@ -19,8 +19,8 @@
   {
    "id": "H3",
    "trigger": "but",
-   "t_kw": 2.98,
-   "t_start": 2.933,
+   "t_kw": 3.62,
+   "t_start": 3.567,
    "desc": "White rising arrow DRAW"
   },
   {
@@ -243,8 +243,8 @@
   {
    "id": "B11",
    "trigger": "he",
-   "t_kw": 29.4,
-   "t_start": 29.4,
+   "t_kw": 29.94,
+   "t_start": 29.933,
    "desc": "HARD CUT \u2192 pink; figure + star"
   },
   {
@@ -313,8 +313,8 @@
   {
    "id": "C6",
    "trigger": "he",
-   "t_kw": 40.84,
-   "t_start": 40.833,
+   "t_kw": 40.94,
+   "t_start": 40.933,
    "desc": "HARD CUT \u2192 grass; talent gauge + POTENTIAL line DRAW"
   },
   {
@@ -383,8 +383,8 @@
   {
    "id": "D4",
    "trigger": "who",
-   "t_kw": 51.28,
-   "t_start": 51.233,
+   "t_kw": 51.4,
+   "t_start": 51.367,
    "desc": "Question marks POP; badges pulse"
   }
  ],
